@@ -1,0 +1,55 @@
+#block{
+	position: absolute;
+	top:350px;
+	left:500px;
+	background:green;
+	height:50px;
+	width:10px;
+}
+#block2{
+	position: absolute;
+	top:280px;
+	left:850px;
+	background:red;
+	height:50px;
+	width:80px;
+}
+#block3{
+	position: absolute;
+	top:400px;
+	left:150px;
+	background:blue;
+	height:30px;
+	width:40px;
+}
+#titre{
+    margin-top:100px;
+    font-family:Arial;
+    font-size:24px;
+    text-align:center;
+}
+#texte{
+    margin-top:20px;
+    font-family: Arial;
+    font-size:14px;
+    text-align:center;
+}
+#source{
+	position:absolute;
+	top:450px;
+	left:700px;
+	background:gold;
+	height: 40px;
+	width: 40px;
+	border-radius:20px;
+	cursor:-moz-grab;
+	cursor:-webkit-grab;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	z-index:10000000;
+}
+#source:active{
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+}
